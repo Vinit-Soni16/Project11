@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}head,
+body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+   gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+flex-direction: column;
+}
+.card{
+    display: block;
+    background-color: white;
+  margin-top: 10%;
+  text-align: center;
+  padding: 25px 27px;
+}
+.card img{
+    height: 140px;
+    width: 100px;
+    border-radius: 5px;
+}
+h2{
+    font-size: 4rem;
+    font-weight: 600;
+}
+h5{
+    font-size: 1.50rem;
+    color: red;
+}
+button{
+    padding: 10px 12px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+button:active{
+    scale: 0.90;
+}
